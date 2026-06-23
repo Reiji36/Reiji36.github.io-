@@ -124,6 +124,15 @@ section {
   text-align: center;
 }
 
+.works-note-2 {
+  font-size: 14px;
+  color: #fff;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 .works-container {
   display: flex;
   gap: 20px;
@@ -185,7 +194,30 @@ section {
 }
 
 .about-text {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-ruby {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.name-main {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.About-desc {
+  font-size: 16px;
+  margin-top: 15px;
+  line-height: 1.6;
+  white-space: pre-line;
 }
 
 /* ===========================
@@ -250,17 +282,19 @@ section {
 }
 
 .modal-content img {
-  max-width: 50%;
+  max-width: 60%;
   max-height: 80vh;
   border-radius: 10px;
 }
 
 .modal-content p {
   color: white;
-  margin-top: 15px;
+  margin-top: 200px;
   font-size: 18px;
   max-width: 40%;
   line-height: 1.6;
+  white-space: pre-line;
+  text-align: left;
 }
 
 /* ===========================
